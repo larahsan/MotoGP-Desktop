@@ -1,0 +1,62 @@
+/* DATOS PERSONALES
+   - Nombre: Lara Haya Santiago 
+   - UO: UO289684
+
+   DESCRIPCIÓN DE LAS REGLAS
+   - Estilos generales del proyecto MotoGP Desktop
+*/
+
+/* Especificidad: 001 */
+body 
+{
+   font-family: Tahoma, Verdana, Arial, sans-serif;
+   color: #0c2d48;
+   background-color: #B3DEEF;
+   font-size: large;
+}
+
+/* Especificidad: 001 */
+header
+{
+   color: #fff;
+   background-color: #0c2d48;
+}
+
+/* Especificidad: 002 */
+header a
+{
+   color: #fff; /* Advertencia en el validador por falta de color de fondo: es heredado de header */
+   text-decoration-line: none;
+}
+
+/* Especificidad: 001 */
+a
+{
+   color: #0c2d48; /* Advertencia en el validador por falta de color de fondo: es heredado de body */
+   word-break: break-all; /* Evitar scroll horizontal con enlaces */
+}
+
+/* Especificidad: 013, 013 */
+body section:last-of-type a, body p:first-of-type a
+{
+   color: #0c2d48; /* 2 advertencias en el validador por falta de color de fondo: es heredado de body */
+}
+
+/* Especificidad: 010 */
+.active
+{
+   color: #B3DEEF; /* Advertencia en el validador por falta de color de fondo: es heredado de header */
+}
+
+/* Especificidad: 013 */
+body p:first-of-type:has(a) /* Migas de navegación */
+{
+   font-size: small;
+}
+
+/* Especificidad: 001, 001, 001 */
+table, th, td 
+{
+   border: 2px solid #0c2d48;
+   border-collapse: collapse;
+}

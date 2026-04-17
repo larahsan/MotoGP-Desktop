@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Lara Haya Santiago" />
+    <meta name ="description" content ="Documento con información sobre el circuito Sachsenring" />
+    <meta name ="keywords" content ="Circuito, Sachsenring, archivos" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>MotoGP-Circuito</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+    <link rel="icon" href="multimedia/iconos/circuito.ico" />
+    <script src="js/circuito.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet"> <!-- Mapbox CSS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script> <!-- Mapbox JS -->
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Inicio">MotoGP Desktop</a></h1>
+
+        <nav>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="piloto.html" title="Piloto">Piloto</a>
+            <a href="circuito.html" title="Circuito" class="active">Circuito</a>
+            <a href="meteorologia.html" title="Meteorología">Meteorología</a>
+            <a href="clasificaciones.php" title="Clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos">Juegos</a>
+            <a href="ayuda.html" title="Ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estás en: <a href="index.html" title="Inicio">Inicio</a> >> <strong>Circuito</strong></p>
+
+    <main>
+        <h2>Circuito de MotoGP Desktop: Sachsenring</h2>
+
+        <p>Inserta uno o varios de los siguientes archivos para consultar información sobre el circuito:</p>
+
+        <label for="inputHTML">Archivo HTML (información general):</label>
+        <input type="file" id="inputHTML" name="inputHTML" accept=".html"/>
+
+        <label for="inputSVG">Archivo SVG (altimetría del circuito):</label>
+        <input type="file" id="inputSVG" name="inputSVG" accept=".svg"/>
+
+        <label for="inputKML">Archivo KML (planimetría del circuito):</label>
+        <input type="file" id="inputKML" name="inputKML" accept=".kml"/>
+    </main>
+
+    <script>
+        circuito = new Circuito();
+        svg = new CargadorSVG();
+        kml = new CargadorKML();
+    </script>
+</body>
+</html>

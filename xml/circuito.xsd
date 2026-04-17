@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://www.uniovi.es" elementFormDefault="qualified" targetNamespace="http://www.uniovi.es" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="circuito">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" />
+				<xs:element ref="fechaCarrera25" />
+				<xs:element ref="horaEspInicio" />
+				<xs:element ref="numVueltas" />
+				<xs:element ref="localidad" />
+				<xs:element ref="pais" />
+				<xs:element ref="patrocinador" />
+				<xs:element ref="longitudCircuito" />
+				<xs:element ref="anchuraMedia" />
+				<xs:element ref="referencias" />
+				<xs:element minOccurs="1" maxOccurs="5" ref="foto" />
+				<xs:element minOccurs="1" maxOccurs="3" ref="video" />
+				<xs:element ref="coordenadas" />
+				<xs:element ref="tramos" />
+				<xs:element ref="victoria" />
+				<xs:element ref="clasificados" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre" type="xs:string" />
+	<xs:element name="fechaCarrera25" type="xs:date" />
+	<xs:element name="horaEspInicio" type="xs:time" />
+	<xs:element name="numVueltas" type="xs:int" />
+	<xs:element name="localidad" type="xs:string" />
+	<xs:element name="pais" type="xs:string" />
+	<xs:element name="patrocinador" type="xs:string" />
+	<xs:element name="longitudCircuito">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:double">
+					<xs:attribute name="unidades" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="anchuraMedia">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:double">
+					<xs:attribute name="unidades" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="referencias">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="3" maxOccurs="unbounded" ref="referencia" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="referencia" type="xs:string" />
+	<xs:element name="foto" type="xs:string" />
+	<xs:element name="video" type="xs:string" />
+	<xs:element name="coordenadas">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+
+					<xs:attribute name="longitud" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:double">
+								<xs:minInclusive value ="-180"/>
+								<xs:maxInclusive value ="180"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+
+					<xs:attribute name="latitud" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:double">
+								<xs:minInclusive value ="-90"/>
+								<xs:maxInclusive value ="90"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+
+					<xs:attribute name="altitud" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:double">
+								<xs:minInclusive value ="0"/>
+								<xs:maxInclusive value ="8000"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tramos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="tramo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="tramo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="distancia" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="coordenadas" />
+			</xs:sequence>
+			<xs:attribute name="numSector" type="xs:int" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="distancia">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:double">
+					<xs:attribute name="unidades" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="victoria">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="vencedor" type="xs:string" use="required" />
+					<xs:attribute name="tiempo" type="xs:duration" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="clasificados">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="3" maxOccurs="3" ref="clasificado" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="clasificado" type="xs:string" />
+</xs:schema>

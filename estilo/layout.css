@@ -1,0 +1,110 @@
+/* DATOS PERSONALES
+   - Nombre: Lara Haya Santiago 
+   - UO: UO289684
+
+   DESCRIPCIÓN DE LAS REGLAS
+   - Disposición de los elementos del proyecto MotoGP Desktop
+*/
+
+/* Especificidad: 001 */
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Especificidad: 001 */
+nav
+{
+    display: flex;
+    column-gap: 1em;
+}
+
+/* Especificidad: 003 */
+body > main > div /* Utilizo este selector en vez del especificado en el guión (body > div) ya que inserto el mapa dentro del elemento main. */
+{
+    width: 50em; 
+    height: 50em;
+}
+
+/* Especificidad: 002 */
+main > svg 
+{
+    width: 25em;    
+    height: 15em;   
+}
+
+/* Especificidad: 003 */
+main p:has(textarea) 
+{
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+/* Especificidad: 002 */
+main:has(label)
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Especificidad: 003 */
+article h2 + img
+{
+    width: 30em;      
+    height: 25em;
+}
+
+/* Especificidad: 002 */
+form:has(label)
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+/* Especificidad: 003, 003, 003 */
+form:has(label) input, form:has(label) select, form:has(label) textarea
+{
+    width: auto;
+    align-self: flex-start; 
+}
+
+@media (min-width: 320px) and (max-width: 799px)
+{
+    /* Especificidad: 001, 001 */
+    header, nav
+    {
+        flex-direction: column; /* Advertencia en el validador por redefinición: cambia el comportamiento de la propiedad */
+        row-gap: 1em;
+    }
+
+    /* Especificidad: 013 */
+    body p:first-of-type:has(a) /* Migas de navegación */
+    {
+        display: none;
+    }
+
+    /* Especificidad: 001, 001, 002 */
+    video, img, main > svg
+    {
+        width: 100%; /* Advertencia en el validador por redefinición: cambia el comportamiento de la propiedad */
+        height: auto; /* Advertencia en el validador por redefinición: cambia el comportamiento de la propiedad */
+    }
+
+    /* Especificidad: 001, 003 */
+    audio, article h2 + img
+    {
+        width: 100%; /* Advertencia en el validador por redefinición: cambia el comportamiento de la propiedad */
+    }
+
+    /* Especificidad: 003 */
+    body > main > div /* Utilizo este selector en vez del especificado en el guión (body > div) ya que inserto el mapa dentro del elemento main. */
+    {
+        width: 100%; /* Advertencia en el validador por redefinición: cambia el valor de la propiedad */
+    }
+}

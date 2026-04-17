@@ -1,0 +1,43 @@
+/* DATOS PERSONALES
+   - Nombre: Lara Haya Santiago 
+   - UO: UO289684
+
+   DESCRIPCIÓN DE LAS REGLAS
+   - Estilos específicos del juego de memoria con cartas
+*/
+
+/* Especificidad: 002 */
+main article /* Estilo general para las tarjetas del juego */
+{
+    width: 23vw;
+    height: 20em;
+    position: relative;
+    transform: scale(1);
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+/* Especificidad: 012, 012 */
+main article[data-estado=volteada], main article[data-estado=revelada] /* Transformación que permite girar la carta cuando se le pone el atributo personalizado data-estado al valor volteada */
+{
+    transform: rotateY(180deg);
+}
+
+/* Especificidad: 002, 002 */
+article h3, article img /* Estilos generales para el encabezado y la imagen de la carta */
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 0.5em;
+    color: #fff;
+    background: #0c2d48;
+    backface-visibility: hidden;
+}
+
+/* Especificidad: 002 */
+article img /* Rotar las imágenes y que se vean correctamente cuando se giran las cartas */
+{
+    transform: rotateY(180deg);
+}

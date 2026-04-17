@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name ="author" content ="Lara Haya Santiago" />
+    <meta name ="description" content ="Documento inicial de MotoGP Desktop" />
+    <meta name ="keywords" content ="Inicio" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>MotoGP</title>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+    <link rel="icon" href="multimedia/iconos/index.ico" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
+    </script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/noticias.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="Inicio">MotoGP Desktop</a></h1>
+
+        <nav>
+            <a href="index.html" title="Inicio" class="active">Inicio</a>
+            <a href="piloto.html" title="Piloto">Piloto</a>
+            <a href="circuito.html" title="Circuito">Circuito</a>
+            <a href="meteorologia.html" title="Meteorología">Meteorología</a>
+            <a href="clasificaciones.php" title="Clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos">Juegos</a>
+            <a href="ayuda.html" title="Ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+    <script>
+        carrusel = new Carrusel();
+        carrusel.mostrarFotografias();
+
+        noticias = new Noticias();
+        noticias.mostrarNoticias();
+    </script>
+</body>
+</html>

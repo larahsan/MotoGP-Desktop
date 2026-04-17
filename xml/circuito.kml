@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>
+Sector 1
+</name>
+      <Point>
+        <coordinates>
+12.6855358,50.7906317,328.7178623
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 2
+</name>
+      <Point>
+        <coordinates>
+12.6916429,50.79331619999999,335.4107978
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 3
+</name>
+      <Point>
+        <coordinates>
+12.692379,50.7932406,334.9625191
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 4
+</name>
+      <Point>
+        <coordinates>
+12.6923941,50.79280369999999,331.5225025
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 5
+</name>
+      <Point>
+        <coordinates>
+12.69188420505994,50.79237849071692,327.6270206
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 6
+</name>
+      <Point>
+        <coordinates>
+12.69174473382222,50.79207366342028,326.23340655
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 7
+</name>
+      <Point>
+        <coordinates>
+12.69177828560781,50.79179103323091,324.8397925
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 8
+</name>
+      <Point>
+        <coordinates>
+12.69197216721336,50.7915441372546,323.44617845
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 9
+</name>
+      <Point>
+        <coordinates>
+12.6924428,50.79134060000001,322.0525644
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 10
+</name>
+      <Point>
+        <coordinates>
+12.69293408860796,50.79122466943426,318.78115975
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 11
+</name>
+      <Point>
+        <coordinates>
+12.69323211863435,50.79102619230063,317.145457425
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 12
+</name>
+      <Point>
+        <coordinates>
+12.693357,50.7907765,315.5097551
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 13
+</name>
+      <Point>
+        <coordinates>
+12.69319888111871,50.79051171760758,315.2803965
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 14
+</name>
+      <Point>
+        <coordinates>
+12.6929252,50.790399,315.0510379
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 15
+</name>
+      <Point>
+        <coordinates>
+12.69233283469614,50.79043632764045,317.84421665
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 16
+</name>
+      <Point>
+        <coordinates>
+12.69207186607948,50.79061044120165,319.240806025
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 17
+</name>
+      <Point>
+        <coordinates>
+12.6920424,50.79088689999999,320.6373954
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 18
+</name>
+      <Point>
+        <coordinates>
+12.69191057467293,50.79115381724475,323.0596996
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 19
+</name>
+      <Point>
+        <coordinates>
+12.69153951262854,50.79139304466219,325.4820038
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 20
+</name>
+      <Point>
+        <coordinates>
+12.6911010535419,50.79155481504138,327.904308
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 21
+</name>
+      <Point>
+        <coordinates>
+12.6906087,50.79164650000001,330.3266122
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 22
+</name>
+      <Point>
+        <coordinates>
+12.68993526693387,50.79144203751576,332.39444935
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 23
+</name>
+      <Point>
+        <coordinates>
+12.68954747964889,50.7911155076234,333.428367925
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 24
+</name>
+      <Point>
+        <coordinates>
+12.68955368815212,50.7908322622162,334.4622865
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 25
+</name>
+      <Point>
+        <coordinates>
+12.69013373000567,50.78997555279773,329.0030837
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 26
+</name>
+      <Point>
+        <coordinates>
+12.69074851791839,50.7896367978592,323.5438809
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 27
+</name>
+      <Point>
+        <coordinates>
+12.6916123984226,50.78947516811653,319.4660234999999
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 28
+</name>
+      <Point>
+        <coordinates>
+12.69209840296073,50.7894869389055,317.4270948
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 29
+</name>
+      <Point>
+        <coordinates>
+12.6925009,50.78957070000001,315.3881661
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 30
+</name>
+      <Point>
+        <coordinates>
+12.69402984126229,50.79032311672706,314.3502674
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 31
+</name>
+      <Point>
+        <coordinates>
+12.6953457,50.7912401,313.3123687
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 32
+</name>
+      <Point>
+        <coordinates>
+12.69554071159819,50.79181514497765,323.18428105
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 33
+</name>
+      <Point>
+        <coordinates>
+12.69497548162221,50.79265821167571,328.120237225
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 34
+</name>
+      <Point>
+        <coordinates>
+12.6941041,50.7934192,333.0561934
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 35
+</name>
+      <Point>
+        <coordinates>
+12.6923394,50.7938309,337.1767461
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 36
+</name>
+      <Point>
+        <coordinates>
+12.6897058,50.7928841,334.4975299
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 37
+</name>
+      <Point>
+        <coordinates>
+12.6830465,50.7931012,303.6169815
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 38
+</name>
+      <Point>
+        <coordinates>
+12.6821599,50.7928593,305.773641
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 39
+</name>
+      <Point>
+        <coordinates>
+12.6818025,50.7923556,306.4596706
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 40
+</name>
+      <Point>
+        <coordinates>
+12.6826762,50.7899463,310.5825841
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 41
+</name>
+      <Point>
+        <coordinates>
+12.6831147,50.7897584,313.5885687
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 42
+</name>
+      <Point>
+        <coordinates>
+12.6837374,50.7898205,318.1087759
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>
+Sector 43
+</name>
+      <Point>
+        <coordinates>
+12.6855358,50.7906317,328.7178623
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>
+Ruta del circuito
+</name>
+    <Placemark>
+      <LineString>
+        <extrude>
+1
+</extrude>
+        <tessellation>
+1
+</tessellation>
+        <coordinates>
+12.6855358,50.7906317,328.7178623
+12.6916429,50.79331619999999,335.4107978
+12.692379,50.7932406,334.9625191
+12.6923941,50.79280369999999,331.5225025
+12.69188420505994,50.79237849071692,327.6270206
+12.69174473382222,50.79207366342028,326.23340655
+12.69177828560781,50.79179103323091,324.8397925
+12.69197216721336,50.7915441372546,323.44617845
+12.6924428,50.79134060000001,322.0525644
+12.69293408860796,50.79122466943426,318.78115975
+12.69323211863435,50.79102619230063,317.145457425
+12.693357,50.7907765,315.5097551
+12.69319888111871,50.79051171760758,315.2803965
+12.6929252,50.790399,315.0510379
+12.69233283469614,50.79043632764045,317.84421665
+12.69207186607948,50.79061044120165,319.240806025
+12.6920424,50.79088689999999,320.6373954
+12.69191057467293,50.79115381724475,323.0596996
+12.69153951262854,50.79139304466219,325.4820038
+12.6911010535419,50.79155481504138,327.904308
+12.6906087,50.79164650000001,330.3266122
+12.68993526693387,50.79144203751576,332.39444935
+12.68954747964889,50.7911155076234,333.428367925
+12.68955368815212,50.7908322622162,334.4622865
+12.69013373000567,50.78997555279773,329.0030837
+12.69074851791839,50.7896367978592,323.5438809
+12.6916123984226,50.78947516811653,319.4660234999999
+12.69209840296073,50.7894869389055,317.4270948
+12.6925009,50.78957070000001,315.3881661
+12.69402984126229,50.79032311672706,314.3502674
+12.6953457,50.7912401,313.3123687
+12.69554071159819,50.79181514497765,323.18428105
+12.69497548162221,50.79265821167571,328.120237225
+12.6941041,50.7934192,333.0561934
+12.6923394,50.7938309,337.1767461
+12.6897058,50.7928841,334.4975299
+12.6830465,50.7931012,303.6169815
+12.6821599,50.7928593,305.773641
+12.6818025,50.7923556,306.4596706
+12.6826762,50.7899463,310.5825841
+12.6831147,50.7897584,313.5885687
+12.6837374,50.7898205,318.1087759
+12.6855358,50.7906317,328.7178623
+</coordinates>
+        <altitudeMode>
+relativeToGround
+</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>
+#ff0000ff
+</color>
+          <width>
+5
+</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

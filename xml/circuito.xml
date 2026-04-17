@@ -1,0 +1,217 @@
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+
+<circuito>
+    <nombre>Sachsenring</nombre>
+    <fechaCarrera25>13/07/2025</fechaCarrera25>
+    <horaEspInicio>14:00</horaEspInicio>
+    <numVueltas>30</numVueltas>
+    <localidad>Oberlungwitz</localidad>
+    <pais>Alemania</pais>
+    <patrocinador>Liqui Moly</patrocinador>
+
+    <longitudCircuito unidades="metros">3671</longitudCircuito>
+    <anchuraMedia unidades="metros">13</anchuraMedia>
+
+    <referencias>
+        <referencia>https://es.wikipedia.org/wiki/Gran_Premio_de_Alemania_de_Motociclismo_de_2025</referencia>
+        <referencia>https://es.wikipedia.org/wiki/Sachsenring</referencia>
+        <referencia>https://www.motorpasionmoto.com/motogp/asi-es-sachsenring-la-pista-mas-corta-de-todo-el-calendario</referencia>
+    </referencias>
+
+    <foto>Sachsenring.jpg</foto>
+    <foto>Sachsenring_mapa.jpg</foto>
+    <foto>Sachsenring_meta.jpg</foto>
+    <video>Sachsenring.mp4</video>
+
+    <coordenadas 
+        longitud="12.6855358" 
+        latitud="50.7906317" 
+        altitud="328.7178623">
+    </coordenadas>
+
+    <tramos>
+        <tramo numSector="1">
+            <distancia unidades="metros">522.8553464006638</distancia>
+            <coordenadas longitud="12.6855358" latitud="50.7906317" altitud="328.7178623"></coordenadas>
+        </tramo>
+        <tramo numSector="2">
+            <distancia unidades="metros">52.41786879083985</distancia>
+            <coordenadas longitud="12.6916429" latitud="50.79331619999999" altitud="335.4107978"></coordenadas>
+        </tramo>
+        <tramo numSector="3">
+            <distancia unidades="metros">48.592656005437824</distancia>
+            <coordenadas longitud="12.692379" latitud="50.7932406" altitud="334.9625191"></coordenadas>
+        </tramo>
+        <tramo numSector="4">
+            <distancia unidades="metros">59.32985368846131</distancia>
+            <coordenadas longitud="12.6923941" latitud="50.79280369999999" altitud="331.5225025"></coordenadas>
+        </tramo>
+        <tramo numSector="5">
+            <distancia unidades="metros">35.28449507096244</distancia>
+            <coordenadas longitud="12.69188420505994" latitud="50.79237849071692" altitud="327.6270206"></coordenadas>
+        </tramo>
+        <tramo numSector="6">
+            <distancia unidades="metros">31.515408510590756</distancia>
+            <coordenadas longitud="12.69174473382222" latitud="50.79207366342028" altitud="326.23340655"></coordenadas>
+        </tramo>
+        <tramo numSector="7">
+            <distancia unidades="metros">30.650039840014248</distancia>
+            <coordenadas longitud="12.69177828560781" latitud="50.79179103323091" altitud="324.8397925"></coordenadas>
+        </tramo>
+        <tramo numSector="8">
+            <distancia unidades="metros">40.08242154577875</distancia>
+            <coordenadas longitud="12.69197216721336" latitud="50.7915441372546" altitud="323.44617845"></coordenadas>
+        </tramo>
+        <tramo numSector="9">
+            <distancia unidades="metros">36.861006239432136</distancia>
+            <coordenadas longitud="12.6924428" latitud="50.79134060000001" altitud="322.0525644"></coordenadas>
+        </tramo>
+        <tramo numSector="10">
+            <distancia unidades="metros">30.429144722709665</distancia>
+            <coordenadas longitud="12.69293408860796" latitud="50.79122466943426" altitud="318.78115975"></coordenadas>
+        </tramo>
+        <tramo numSector="11">
+            <distancia unidades="metros">29.119148558614583</distancia>
+            <coordenadas longitud="12.69323211863435" latitud="50.79102619230063" altitud="317.145457425"></coordenadas>
+        </tramo>
+        <tramo numSector="12">
+            <distancia unidades="metros">31.47049649762254</distancia>
+            <coordenadas longitud="12.693357" latitud="50.7907765" altitud="315.5097551"></coordenadas>
+        </tramo>
+        <tramo numSector="13">
+            <distancia unidades="metros">22.960515206032177</distancia>
+            <coordenadas longitud="12.69319888111871" latitud="50.79051171760758" altitud="315.2803965"></coordenadas>
+        </tramo>
+        <tramo numSector="14">
+            <distancia unidades="metros">41.8454126575032</distancia>
+            <coordenadas longitud="12.6929252" latitud="50.790399" altitud="315.0510379"></coordenadas>
+        </tramo>
+        <tramo numSector="15">
+            <distancia unidades="metros">26.67095761181977</distancia>
+            <coordenadas longitud="12.69233283469614" latitud="50.79043632764045" altitud="317.84421665"></coordenadas>
+        </tramo>
+        <tramo numSector="16">
+            <distancia unidades="metros">30.810514324565773</distancia>
+            <coordenadas longitud="12.69207186607948" latitud="50.79061044120165" altitud="319.240806025"></coordenadas>
+        </tramo>
+        <tramo numSector="17">
+            <distancia unidades="metros">31.092711096636922</distancia>
+            <coordenadas longitud="12.6920424" latitud="50.79088689999999" altitud="320.6373954"></coordenadas>
+        </tramo>
+        <tramo numSector="18">
+            <distancia unidades="metros">37.25460006155249</distancia>
+            <coordenadas longitud="12.69191057467293" latitud="50.79115381724475" altitud="323.0596996"></coordenadas>
+        </tramo>
+        <tramo numSector="19">
+            <distancia unidades="metros">35.685190143042796</distancia>
+            <coordenadas longitud="12.69153951262854" latitud="50.79139304466219" altitud="325.4820038"></coordenadas>
+        </tramo>
+        <tramo numSector="20">
+            <distancia unidades="metros">36.078443925327186</distancia>
+            <coordenadas longitud="12.6911010535419" latitud="50.79155481504138" altitud="327.904308"></coordenadas>
+        </tramo>
+        <tramo numSector="21">
+            <distancia unidades="metros">52.513078165121975</distancia>
+            <coordenadas longitud="12.6906087" latitud="50.79164650000001" altitud="330.3266122"></coordenadas>
+        </tramo>
+        <tramo numSector="22">
+            <distancia unidades="metros">45.40168466343126</distancia>
+            <coordenadas longitud="12.68993526693387" latitud="50.79144203751576" altitud="332.39444935"></coordenadas>
+        </tramo>
+        <tramo numSector="23">
+            <distancia unidades="metros">31.498475618239596</distancia>
+            <coordenadas longitud="12.68954747964889" latitud="50.7911155076234" altitud="333.428367925"></coordenadas>
+        </tramo>
+        <tramo numSector="24">
+            <distancia unidades="metros">103.62056581665496</distancia>
+            <coordenadas longitud="12.68955368815212" latitud="50.7908322622162" altitud="334.4622865"></coordenadas>
+        </tramo>
+        <tramo numSector="25">
+            <distancia unidades="metros">57.32772461693485</distancia>
+            <coordenadas longitud="12.69013373000567" latitud="50.78997555279773" altitud="329.0030837"></coordenadas>
+        </tramo>
+        <tramo numSector="26">
+            <distancia unidades="metros">63.32949128982417</distancia>
+            <coordenadas longitud="12.69074851791839" latitud="50.7896367978592" altitud="323.5438809"></coordenadas>
+        </tramo>
+        <tramo numSector="27">
+            <distancia unidades="metros">34.18839748621864</distancia>
+            <coordenadas longitud="12.6916123984226" latitud="50.78947516811653" altitud="319.4660234999999"></coordenadas>
+        </tramo>
+        <tramo numSector="28">
+            <distancia unidades="metros">29.786785527076947</distancia>
+            <coordenadas longitud="12.69209840296073" latitud="50.7894869389055" altitud="317.4270948"></coordenadas>
+        </tramo>
+        <tramo numSector="29">
+            <distancia unidades="metros">136.20073064186585</distancia>
+            <coordenadas longitud="12.6925009" latitud="50.78957070000001" altitud="315.3881661"></coordenadas>
+        </tramo>
+        <tramo numSector="30">
+            <distancia unidades="metros">137.66595245314207</distancia>
+            <coordenadas longitud="12.69402984126229" latitud="50.79032311672706" altitud="314.3502674"></coordenadas>
+        </tramo>
+        <tramo numSector="31">
+            <distancia unidades="metros">65.39486494149536</distancia>
+            <coordenadas longitud="12.6953457" latitud="50.7912401" altitud="313.3123687"></coordenadas>
+        </tramo>
+        <tramo numSector="32">
+            <distancia unidades="metros">101.81628556052927</distancia>
+            <coordenadas longitud="12.69554071159819" latitud="50.79181514497765" altitud="323.18428105"></coordenadas>
+        </tramo>
+        <tramo numSector="33">
+            <distancia unidades="metros">104.45854870420413</distancia>
+            <coordenadas longitud="12.69497548162221" latitud="50.79265821167571" altitud="328.120237225"></coordenadas>
+        </tramo>
+        <tramo numSector="34">
+            <distancia unidades="metros">132.2155997628902</distancia>
+            <coordenadas longitud="12.6941041" latitud="50.7934192" altitud="333.0561934"></coordenadas>
+        </tramo>
+        <tramo numSector="35">
+            <distancia unidades="metros">212.95553984645838</distancia>
+            <coordenadas longitud="12.6923394" latitud="50.7938309" altitud="337.1767461"></coordenadas>
+        </tramo>
+        <tramo numSector="36">
+            <distancia unidades="metros">468.6975645587926</distancia>
+            <coordenadas longitud="12.6897058" latitud="50.7928841" altitud="334.4975299"></coordenadas>
+        </tramo>
+        <tramo numSector="37">
+            <distancia unidades="metros">67.87538343435712</distancia>
+            <coordenadas longitud="12.6830465" latitud="50.7931012" altitud="303.6169815"></coordenadas>
+        </tramo>
+        <tramo numSector="38">
+            <distancia unidades="metros">61.384725410483384</distancia>
+            <coordenadas longitud="12.6821599" latitud="50.7928593" altitud="305.773641"></coordenadas>
+        </tramo>
+        <tramo numSector="39">
+            <distancia unidades="metros">274.85107987403404</distancia>
+            <coordenadas longitud="12.6818025" latitud="50.7923556" altitud="306.4596706"></coordenadas>
+        </tramo>
+        <tramo numSector="40">
+            <distancia unidades="metros">37.237691473248496</distancia>
+            <coordenadas longitud="12.6826762" latitud="50.7899463" altitud="310.5825841"></coordenadas>
+        </tramo>
+        <tramo numSector="41">
+            <distancia unidades="metros">44.313268637739434</distancia>
+            <coordenadas longitud="12.6831147" latitud="50.7897584" altitud="313.5885687"></coordenadas>
+        </tramo>
+        <tramo numSector="42">
+            <distancia unidades="metros">155.29675507959902</distancia>
+            <coordenadas longitud="12.6837374" latitud="50.7898205" altitud="318.1087759"></coordenadas>
+        </tramo>
+        <tramo numSector="43">
+            <distancia unidades="metros">0</distancia>
+            <coordenadas longitud="12.6855358" latitud="50.7906317" altitud="328.7178623"></coordenadas>
+        </tramo>
+    </tramos>
+
+    <victoria 
+        vencedor="Marc Márquez" 
+        tiempo="40:42.854">
+    </victoria>
+
+    <clasificados>
+        <clasificado>Marc Márquez</clasificado>
+        <clasificado>Álex Márquez</clasificado>
+        <clasificado>Francesco Bagnaia</clasificado>
+    </clasificados>
+</circuito>

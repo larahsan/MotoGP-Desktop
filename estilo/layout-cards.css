@@ -1,0 +1,40 @@
+/* DATOS PERSONALES
+   - Nombre: Lara Haya Santiago 
+   - UO: UO289684
+
+   DESCRIPCIÓN DE LAS REGLAS
+   - Disposición de los elementos del juego de memoria con cartas del proyecto MotoGP Desktop
+*/
+
+/* Especificidad: 001 */
+main 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 1vw;
+}
+
+/* Especificidad: 002, 002 */
+main h2, main p 
+{
+    grid-column: 1 / -1;
+}
+
+/* Especificidad: 002 */
+article h3 /* Centrar el texto "Memory Card" vertical y horizontalmente en cada carta */
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 799px)
+{
+    /* Especificidad: 001 */
+    main 
+    {
+        grid-template-columns: repeat(2, 1fr); /* Advertencia en el validador por redefinición: cambia el comportamiento de la propiedad */
+    }
+}
