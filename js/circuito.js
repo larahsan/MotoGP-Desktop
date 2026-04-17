@@ -166,7 +166,7 @@ class CargadorKML
 
         // Cargar el mapa
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoidW8yODk2ODQiLCJhIjoiY21pMGk1aHRvMHhwNjJsc2Nubnk0ZnYwNyJ9.-ZTqmC4zBk9v25ZQoLtL7Q';
+        mapboxgl.accessToken = process.env.accessToken;
 
         var div = document.createElement("div");
         var main = document.querySelector("main");
