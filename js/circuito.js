@@ -166,7 +166,7 @@ class CargadorKML
 
         // Cargar el mapa
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoidW8yODk2ODQiLCJhIjoiY21pMGk1aHRvMHhwNjJsc2Nubnk0ZnYwNyJ9.-ZTqmC4zBk9v25ZQoLtL7Q'; // This project uses a public Mapbox token restricted by domain for security.
+        mapboxgl.accessToken = 'pk.eyJ1IjoidW8yODk2ODQiLCJhIjoiY21vMzkyeWhjMHFsdjJyc2V5NXFjazdqcCJ9.mRFUvZpm8BrOiMoD7Oy1jA'; // This project uses a public Mapbox token restricted by domain for security.
 
         var div = document.createElement("div");
         var main = document.querySelector("main");
